@@ -45,6 +45,14 @@ extensions = ['sphinx.ext.mathjax',
               'sphinx_gallery.gen_gallery',
               'sphinx.ext.intersphinx',
               ]
+# Intersphinx mapping for external Libraries and Functions
+intersphinx_mapping = {
+                       "python": ("https://docs.python.org/3.7", None),
+                       "cython":("https://cython.org/", None),
+                       "scipy": ("https://docs.scipy.org/doc/scipy/reference/", None),
+                       "numpy": ("https://docs.scipy.org/doc/numpy/", None),
+                       "matplotlib": ("https://matplotlib.org/", None),
+                      }
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['templates']
