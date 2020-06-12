@@ -42,7 +42,8 @@ extensions = ['sphinx.ext.mathjax',
               'sphinx.ext.viewcode',
               'sphinx.ext.ifconfig',
               'sphinx.ext.napoleon',
-              'sphinx_gallery.gen_gallery'
+              'sphinx_gallery.gen_gallery',
+              'sphinx.ext.intersphinx',
               ]
 
 # Add any paths that contain templates here, relative to this directory.
