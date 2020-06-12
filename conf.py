@@ -50,7 +50,7 @@ intersphinx_mapping = {
                        "python": ("https://docs.python.org/3.7", None),
                        "cython":("https://cython.org/", None),
                        "scipy": ("https://docs.scipy.org/doc/scipy/reference/", None),
-                       "numpy": ("https://docs.scipy.org/doc/numpy/", None),
+                       "numpy": ("https://numpy.org/doc/stable/", None),
                        "matplotlib": ("https://matplotlib.org/", None),
                       }
 
